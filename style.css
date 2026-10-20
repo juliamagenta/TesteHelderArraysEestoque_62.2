@@ -1,0 +1,110 @@
+/* Configurações gerais da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #354f52;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Conteúdo principal */
+main {
+    width: 85%;
+    max-width: 800px;
+    margin: 25px auto;
+}
+
+/* Cartões de cada atividade */
+.cartao {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #ccc;
+}
+
+/* Títulos */
+h2 {
+    color: #354f52;
+}
+
+/* Caixa de eventos do mouse */
+#caixa {
+    background-color: #84a98c;
+    color: white;
+    padding: 35px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Campo de texto */
+input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+/* Contador */
+#contador {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #52796f;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #354f52;
+}
+
+/* Mensagem de confirmação */
+#mensagem {
+    color: #2d6a4f;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #354f52;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    .cartao {
+        padding: 15px;
+    }
+}
